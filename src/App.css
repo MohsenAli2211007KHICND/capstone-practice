@@ -1,0 +1,47 @@
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+body {
+  background-color: rgb(222, 212, 231);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-info-heading {
+  text-align: center;
+}
+
+.input-fields {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  background-color: #a8badd;
+  outline: none;
+  width: 460px;
+}
+
+.input-fields:hover {
+  background-color: #99a8c7;
+}
+.first-name-input , .last-name-input{
+  width: 210px;
+}
